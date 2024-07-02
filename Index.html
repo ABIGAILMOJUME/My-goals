@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./index.css" />
+    <title>My Goals</title>
+  </head>
+  <body>
+                <!-- header -->
+    <div class="heading-text-container">
+      <h1 class="heading-text" data-testid="slackDisplayName">
+        Thegodlifegirl
+      </h1>
+      <div class="dayandtime">
+        <div class="day-container" data-testid="currentDay"> <span id="current-day"></span></div>
+        <div class="time-container" data-testid="currentTimeUTC"><span id="current-time"></span></div>
+      </div>
+    </div>
+            <!-- hero-section -->
+    <div class="hero-section">
+            <p class="introduction-text">Hi there! My name is Abigail, <span class="front-end-text">A frontend developer</span>.</p>
+            <div class="image-container">
+                <img
+                src="./Images/ABIGAIL MOJUME.png"
+                alt="Profile-picture"
+                data-testid="slackProfilePicture"
+                class="profile-pic"
+              />         
+            </div>
+    </div>
+                <!-- Goals -->
+         <div class="Goals-container">
+            <h1 class="Goals-title-text">My Goals for the next Two years</h1>
+            <p class="Goals-description-text">
+                Over the next two years, I aim to master new programming languages and technologies, gain proficiency in software architecture and design principles, lead projects or teams, and contribute to innovative solutions. I will focus on gaining proficiency similar to that of Senior Front-end engineer and continue making meaningful contributions to software engineering.
+            </p>
+         </div>        
+                  <!-- footer -->
+                  <footer class="footer-container">
+                    <div class="footer-columns">
+                           <h1 class="footer-heading">Contact Me</h1> 
+                           <ul>
+                            <li data-testid="slackEmail">Email:abigailmojumecodes@gmail.com</li>
+                           </ul>
+                    </div>
+                    <div class="footer-columns">
+                        <h1 class="footer-heading">Useful links</h1> 
+                        <ul> 
+                         <li> <a href="http://hng.tech/learn">http://hng.tech/learn</a></li>
+                         <li><a href="http://keyword.dog/">http://keyword.dog/</a></li>
+                         <li><a href="http://scrapeanyweb.site/">http://scrapeanyweb.site/</a></li>
+                        </ul>
+                    </div>
+    <script src="./index.js" defer></script>
+  </body>
+</html>
